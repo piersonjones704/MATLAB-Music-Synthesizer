@@ -29,7 +29,7 @@ where `n` is the number of semitones above or below A4 (440 Hz). From this, the 
 | **Exponential decay** | Shapes each note's amplitude envelope so it fades out naturally, like a struck piano string, instead of cutting off abruptly |
 | **Harmonic (additive) synthesis** | Layers scaled 2nd and 3rd harmonics on top of each note's fundamental frequency, enriching a plain sine tone into something closer to a real instrument's timbre |
 | **Multiple simultaneous notes (chords)** | Synthesizes and sums several pitches at once for the bass line, adding harmonic depth beyond a single melodic voice |
-| **Reverb / echo** | Adds a delayed, attenuated copy of the full mix back onto itself, simulating acoustic reflection and giving the recording a sense of space |
+| **Echo** | Adds a delayed, attenuated copy of the full mix back onto itself, simulating acoustic reflection and giving the recording a sense of space |
 
 **Mixing and export**: The melody and bass lines are synthesized independently, aligned and summed into a single signal, processed through the echo stage, normalized to prevent clipping, and written out as a standard `.wav` file.
 
